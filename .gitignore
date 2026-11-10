@@ -1,0 +1,22 @@
+# 运行时数据（数据库文件含用户密码哈希和聊天记录，绝不入库）
+data/
+
+# 日志与本地调试产物
+server.log
+*.log
+_cdp*.txt
+_probe*.txt
+_probe.js
+_selftest.js
+_shot-*.png
+_test-result.txt
+_verify*.js
+_serve*.js
+_serve.log
+*.txt
+!README.md
+
+# 系统文件
+Thumbs.db
+.DS_Store
+.workbuddy/
